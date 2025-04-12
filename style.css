@@ -1,0 +1,75 @@
+.borderbox{
+    width:70%;
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.allbox{
+    margin:0 auto;
+    max-width: 400px;
+}
+.tele{
+    list-style-type: none;
+}
+.optiongroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .optionbox {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 8px;
+  }
+  label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid green;
+    color: green;`
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type="radio"] {
+    display: none; 
+  }
+
+#but{
+   
+    background-color: darkgreen;
+    font-weight: bold;`
+    color: white;
+    border: 1px solid black;
+    width:70%;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .carrierbox ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .carrierbox ul li button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }

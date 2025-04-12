@@ -3,33 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NaverLogin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
+    <div class="allbox">
+    <div class="borderbox">
+        <div class="inputs">
             <input type="text" name="id" id="id" required placeholder="아이디">
-            <a>@naver.com</a>
+            <span>@naver.com</span>
         </div>
-        <div>
+        <div class="inputs">
             <input type="password" name="password" id="password" required placeholder="비밀번호">
         </div>
-        <div>
+        <div class="inputs"> 
             <input type ="email" name="
-            email" id="email" required placeholder="[선택]이메일 주소">
-        </div>
-        <div>
-            <input type="text" name="name" id="name" required placeholder="이름">
-        </div>
-        <div>
-            <input type="number" name="birth" id="birth" required placeholder="생년월일 8자리">
-        </div>
-        <div>
-            <button>통신사 선택</button>
+            email" id="email" required placeholder="[선택]이메일 주소 (비밀번호 찾기 등 본인 확인용)">
         </div>
     </div>
-    <div>
-        <ul>
+    <div class="borderbox">
+        <div class="inputs">
+            <input type="text" name="name" id="name" required placeholder="이름">
+        </div>
+        <div class="inputs">
+            <input type="number" name="birth" id="birth" required placeholder="생년월일 8자리">
+        </div>
+        <div class="phone">        
+            
+            <button>통신사 선택</button>
+           
+ 
+         <div class="carrierbox">
+        <ul class="tele">
             <li><button>SK</button></li>
             <li><button>KT</button></li>
             <li><button>LG U+</button></li>
@@ -37,22 +42,30 @@
             <li><button>KT 알뜰폰</button></li>
             <li><button>LG U+ 알뜰폰</button></li>
         </ul>
-    </div>
-    <div>
-        <ul>
-            <li><input type ="radio">남자</li>
-            <li><input type ="radio">여자</li>
+         </div>
+        </div>
+<div class="borderbox">
+    <div class="optiongroup">
+        <ul class="optionbox">
+            <li><input type ="radio" id="male" name="gender"><lable for="male">남자</lable></li>
+            <li><input type ="radio" id="female" name="gender"><lable for="female">여자</lable></li>
+        </ul>
+        <ul class="optionbox">
+            <li><input type ="radio" id="korean" name="nationality"><lable for="korean">내국인</lable></li>
+            <li><input type ="radio" id="foreigner" name="nationality"><lable for="foreigner">외국인</lable></li>
         </ul>
     </div>
-    <div>
-        <ul>
-            <li><input type ="radio">내국인</li>
-            <li><input type ="radio">외국인</li>
-        </ul>
-    </div>
-    <div>
+</div>
+</div>
+    <div class="borderbox">
+        <div class="inputs">
         <input type="number" name="pnumber" id="pnumber" required placeholder="전화번호"><br>
-        <button>submit</button>
     </div>
+    </div>
+ 
+       <button id="but">인증요청</button>
+
+</div>
+</div>
 </body>
 </html>
